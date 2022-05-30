@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+}
+
+.app{
+	background: #B026FF;
+	color: white;
+	width: 40%;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+#addNew{
+	background: white;
+	padding: 5px;
+	cursor: pointer;
+	width: 50%;
+	margin: auto;
+	border-radius: 15px;
+}
+
+.addText{
+	color: #949494;
+}
+
+.addIcon{
+	background: #B026FF;
+	padding: 5px;
+	border-radius: 10px;
+	position: relative;
+	left: 110px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	position: relative;
+	background: #eee;
+	list-style-type: none;
+	padding: 12px 8px 12px 40px;
+	width: 40%;
+	margin: auto;
+
+   /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
